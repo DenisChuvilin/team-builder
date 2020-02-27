@@ -1,14 +1,14 @@
 import React from 'react';
 
-const teamMembers = () => [
-  { Id: 0, Name: 'Steve', Status: 'TL', Gender: 'Male' },
-  { Id: 1, Name: 'Daniel.M', Status: 'Student', Gender: 'Male' },
-  { Id: 2, Name: 'Easton', Status: 'Student', Gender: 'Male' },
-  { Id: 3, Name: 'Fernando', Status: 'Student', Gender: 'Male' },
-  { Id: 4, Name: 'Christine', Status: 'TL', Gender: 'Female' },
-  { Id: 5, Name: 'Cody', Status: 'Student', Gender: 'Male' },
-  { Id: 6, Name: 'Danny.A', Status: 'Student', Gender: 'Male' },
-  { Id: 7, Name: 'Denis', Status: 'Student', Gender: 'Male' },
+const teamMembers = [
+  { id: 0, name: 'Steve',     role: 'TL',      email: 'programmer@mail.com' },
+  { id: 1, name: 'Daniel.M',  role: 'student', email: 'programmer@mail.com' },
+  { id: 2, name: 'Easton',    role: 'student', email: 'programmer@mail.com' },
+  { id: 3, name: 'Fernando',  role: 'student', email: 'programmer@mail.com' },
+  { id: 4, name: 'Christine', role: 'TL',      email: 'programmer@mail.com' },
+  { id: 5, name: 'Cody',      role: 'student', email: 'programmer@mail.com' },
+  { id: 6, name: 'Danny.A',    role: 'student', email: 'programmer@mail.com' },
+  { id: 7, name: 'Denis',     role: 'student', email: 'programmer@mail.com' },
 ];
 
-export {teamMembers};
+export { teamMembers };
