@@ -5,21 +5,16 @@ const MembersList = props => {
   return (
     <>
       <div className="memberList">
-
         <div className="intro">
-          <strong>
-          My awesome programming team is composed of
-          </strong>
+          <strong>My awesome programming team is composed of</strong>
         </div>
         <br />
 
-        {props.list.map( member => {
+        {props.list.map(member => {
           //console.log(member.id)
           return (
             <div className="memberNames">
-              <ul>
-                {`${member.name}, who is a ${member.role} and can be reached at ${member.email} `}
-              </ul>
+              <ul>{`${member.name}, who is a ${member.role} and can be reached at ${member.email} `}</ul>
             </div>
           );
         })}

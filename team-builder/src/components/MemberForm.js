@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const MemberForm = props => {
-    // console.log(props)
+  // console.log(props)
   const [input, setInput] = useState({
     name: '',
     email: '',
