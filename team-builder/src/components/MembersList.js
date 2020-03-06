@@ -13,7 +13,7 @@ const MembersList = props => {
         {props.list.map(member => {
           //console.log(member.id)
           return (
-            <div className="memberNames">
+            <div className="EachMember">
               <ul>{`${member.name}, who is a ${member.role} and can be reached at ${member.email} `}</ul>
             </div>
           );
